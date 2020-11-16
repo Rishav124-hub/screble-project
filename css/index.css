@@ -6,7 +6,7 @@ html {
 button:hover {
  opacity:1;
 }
-input.topButtons {
+.topButtons {
  width: 90px;
  padding: 10px;
  cursor: pointer;
@@ -53,4 +53,100 @@ margin: 10px 10px 0px 10px;
     position: absolute;
     top: 50%;
     left: 45%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px 20px 30px 20px;
+  border: 1px solid #888;
+  width: 25%;
+}
+
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.lname{
+ margin-top:20px;
+ font-weight: bold;
+ margin-bottom: 5px;
+ font-size: larger;
+ font-family: 'Oswald', sans-serif;
+}
+
+.btn{
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #4CAF50;
+}
+
+.textfield{
+  padding: 15px;
+  background-color:lightgrey;
+  font-weight: bold;
+  border: none;
+}
+.anchor{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.lastdiv{
+  text-align: center;
+  margin-top:30px;
+ font-weight: bold;
+ margin-bottom: 5px;
+ font-size: larger;
+ font-family: 'Oswald', sans-serif;
+}
+
+.post-modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px 20px 30px 20px;
+  border: 1px solid #888;
+  width: 75%;
+}
+
+h3{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+  font-stretch: wider;
 }

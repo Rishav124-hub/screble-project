@@ -5,18 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
-        <p id="pageTitle" class="logo-title">ScriBBler </p>
-        <input class="topButtons" type="button" value="Sign Up">
-        <input class="topButtons" type="button" value="Sign In">
+        <a id="pageTitle" class="logo-title">ScriBBler </a>
+        <input class="topButtons" type="button" value="Sign Up" onclick="signupfunction()">
+        <input class="topButtons" type="button" value="Sign In" onclick="signinfunction()">
         <p class="middleText">Explore Imagine Create</p>
     </div >
     <div class="Button">
     <button id="AllPostButton" class="PostButton">All Posts</button>
     <button id="CreatePostButton" class="PostButton">Create Post</button>
     </div>
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Get Started</h1>
+            <hr>
+            <form class="form">
+                <label class="lname">Full Name</label>
+                <input type="text" name="" id="" placeholder="Enter Full Name" class="textfield" required>
+                <label class="lname">Username</label>
+                <input type="text" name="" id="" placeholder="Enter Username" class="textfield" required>
+                <label class="lname">Password</label>
+                <input type="password" name="" id="" placeholder="Enter Password" class="textfield" required>
+                <label class="lname">Confirm Password</label>
+                <input type="password" name="" id="" placeholder="Confirm Password" class="textfield" required>
+                <button class="btn">Sign Up</button>
+            </form>
+        </div>  
+    </div>
+
+    <div id="signinModel" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Welcome Back!</h1>
+            <hr>
+            <form class="form">
+                <label class="lname">Username</label>
+                <input type="text" name="" id="" placeholder="Enter Username" class="textfield" required>
+                <label class="lname">Password</label>
+                <input type="password" name="" id="" placeholder="Enter Password" class="textfield" required>
+                <button class="btn">Sign In</button>
+            </form>
+            <p class="lastdiv">Not a member? <a href="#" class="anchor" onclick="signuUpfunction()">Sign Up</a></p>
+        </div>
+    </div>
+
+    <div id="createpostModel" class="modal">
+        <div class="post-modal-content">
+            <span class="close">&times;</span>
+            <h3>Pen Your Post</h3>
+            <form class="form">
+                <label>Title:</label>
+                <input type="text" name="" id="">
+                <label>Content:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+
+    </div>  
+    <script src="js/index.js"></script>
 </body>
 </html>

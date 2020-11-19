@@ -1,0 +1,101 @@
+.middleText{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    margin: 0 0 0px 10px;
+    color: white;
+    }
+html{
+    background-color: gold;
+}
+body{
+    margin: 0px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: 5px 5% 20px 5% ;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.usernamearea{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.commentarea{
+    background-color: lightgrey;
+    padding: 15px 15px 15px 25px;
+    border-radius: 0px 20px 20px 0px;
+}
+.icontrash{
+    float: right;
+    padding: 5px;
+    
+}
+#iconmodel{
+    font-size: 30px;
+}
+.doticon{
+    float: right;
+    padding: 5px;
+}
+.overflow{
+    overflow: hidden;
+    height: 70px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+h2{
+    margin-bottom: 5px;
+    font-weight: bolder;
+
+}
+.comment-content-model{
+    background-color: #fefefe;
+  margin: auto;
+  padding: 5px 25px 30px 20px;
+  border: 1px solid #888;
+  width: 23%;
+}
+
+.commentpostmodel{
+    display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 16%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 30%;
+    padding: 6px;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.yes-btn{
+    background-color: red;
+    margin-right: 10%; 
+    margin-left: 10%;
+}
+.no-btn{
+    background-color: limegreen;
+     margin-left: 10%;
+}

@@ -2,31 +2,12 @@ html {
     background: url("../images/background.jpg") no-repeat center center fixed; 
     background-size: cover;
   }
+body{
+  margin: 0px;
+}
 
 button:hover {
  opacity:1;
-}
-.topButtons {
- width: 90px;
- padding: 10px;
- cursor: pointer;
- font-weight: 500;
- font-size: 90%;
- background: #0000ff;
- color: #fff;
- float: right;                  
- 
- margin: 10px 10px 0px 0px;
- font-family: Arial, Helvetica, sans-serif;
-}
-
-.logo-title {
-font-family: 'Satisfy', cursive;
-font-size: 50px;
-color: #112fb4;
-margin: auto;
-text-decoration: none;
-margin: 10px 10px 0px 10px;    
 }
 .middleText{
     font-family: 'Marck Script', cursive;
@@ -36,15 +17,15 @@ margin: 10px 10px 0px 10px;
 .PostButton{
     width: 100px;
     border: none;
- padding: 10px;
- cursor: pointer;
- font-weight: 500;
- font-size: 90%;
- opacity: 1;
- background-color: goldenrod;
- color: #fff;                  
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 90%;
+  opacity: 1;
+  background-color: goldenrod;
+  color: #fff;                  
  
- margin: 10px 10px 0px 0px;
+  margin: 10px 10px 0px 0px;
  font-family: Arial, Helvetica, sans-serif;       
 }
 

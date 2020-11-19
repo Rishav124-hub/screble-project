@@ -19,7 +19,8 @@ span2.onclick = function(){
 }
 
 function signuUpfunction(){
-    alert("hsdzjS");
+    mod.style.display="none";
+    modal1.style.display="block";
 }
 
 var cmod=document.getElementById("createpostModel");

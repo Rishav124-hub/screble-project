@@ -65,7 +65,7 @@ margin: 10px 10px 0px 10px;
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ h1{
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 10px 20px 30px 20px;
+  padding: 5px 20px 30px 20px;
   border: 1px solid #888;
   width: 25%;
 }
@@ -87,7 +87,7 @@ h1{
   display: none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 75px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -119,8 +119,9 @@ h1{
 .textfield{
   padding: 15px;
   background-color:lightgrey;
-  font-weight: bold;
+  font-weight: normal;
   border: none;
+  font-size: large;
 }
 .anchor{
   text-decoration: none;
@@ -136,17 +137,67 @@ h1{
  font-family: 'Oswald', sans-serif;
 }
 
+.postmodal{
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 25px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 .post-modal-content{
   background-color: #fefefe;
-  margin: auto;
-  padding: 10px 20px 30px 20px;
+  margin:auto;
+  padding: 10px 40px 20px 40px;
   border: 1px solid #888;
-  width: 75%;
+  width: 65%;
 }
 
 h3{
   text-align: center;
-  font-size: 38px;
+  font-size: 28px;
   font-family: 'Oswald', sans-serif;
-  font-stretch: wider;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.postlname{
+  
+ font-weight: bold;
+ margin-bottom: 5px;
+ font-size: larger;
+ font-family: 'Oswald', sans-serif;
+}
+.titlebox{
+  width: 48%;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: large;
+  font-weight: normal;
+  border: none;
+}
+
+.Contentbox{
+  background-color: lightgrey;
+  font-size: large;
+  font-weight: normal;
+  padding: 10px;
+
+}
+
+.btn-button{
+  background-color: limegreen;
+  width: 80px;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
 }

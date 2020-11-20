@@ -1,0 +1,67 @@
+/* styling the middle text which is present in head part */
+.middleText{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    margin: 0 0 0px 10px;
+}
+/* margin og the body */
+body{
+    margin: 0px;
+}
+/* styling the heading of post area */
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* styling the username */
+h4{
+    margin-bottom: 50px;
+    font-family: 'Niconne', cursive;
+    font-size: xx-large;
+    font-weight: normal;
+}
+/* styling the edit button */
+.p-btn{
+    background-color: #e6005c;
+    padding: 10px 20px;
+    float: right;
+    border: none;
+    color: white;
+}
+/* styling the post area */
+.post{
+    padding: 75px;
+    padding-top: 5px;
+}
+/* styling the like button */
+.like-btn{
+    background-color: #e6005c;
+    padding: 10px 35px;
+    border: none;
+    color: white;
+}
+/* styling the comment button */
+.commet-btn{
+    background-color: #e6005c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+/* styling the comment box */
+#usercomment{
+    width: 55%;
+    max-height: 500px;
+}
+/* styling the comments area */
+.allcomment{
+    background-color: lightgrey;
+    padding: 10px;
+    width: 55%;
+}
+/* styling the comment */
+#addcomment{
+    background-color: white;
+    padding: 20px 10px;
+    font-size: larger;
+
+}

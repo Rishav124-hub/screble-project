@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header part -->
+    <div class="header">
+        <a id="pageTitle" class="logo-title">ScriBBler </a>
+        <input class="topButtons" type="button" value="Sign Up" onclick="signupfunction()">
+        <input class="topButtons" type="button" value="Sign In" onclick="signinfunction()">
+        <p class="middleText">Explore Imagine Create</p>
+    </div >
+    <!-- code of post part -->
+    <div class="post">
+            <h1>The legacy of Jimi Hendrix</h1>
+            <button class="p-btn" onclick="changefunction(editarea)" id="mybtn1">Edit <i class="fas fa-edit"></i></button>
+            <h4>Jimi</h4>
+        <div>
+            <p id="container-text">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[I] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before.His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock American folk music, 1950s rock and roll, psychedelic and jazz. Hendrix favored overdriven amplifiers with high volume and gain [119] He was instrumental in developing the previously undesirable technique of gutar amplifier feedback, and helped to popularize use of the wah wah pedal in mainstream rock [348] He rejected the standard  barre chord fretting technique used by most guitarists in favor of fretting the low fch string root notes with his thumb,[349] He applied this technique during the beginning bars of "Little Wing", which allowed him to sustain the root note of chords while also playing melody This method has been described as piano style, with the thumb playing what a pianist's left hand would play and the other fingers playing melody as a night hand 350 Having spent several years fronting a trio, he developed an ability to play rhythm chords and lead lines together, giving the audio impression that more than one guitarist was performing|51|na 41] He was the first artist to incorporate stereophonic phasing effects in rock music recordings [354] Holly George Warren of Rolling Stone commented: "Hendrix pioneered the in of the instrument as an electronic sound source. Players before him had experimented with feedback and distortion, but Hendro turned those effects and others into a controlled. fluid vocabulary every bit as personal as the blues with which he began."[3]][nb 42] Aledort wrote: "Io rock guitar, there are but two eras-before Hendrix and after Hendrex"</p>
+        </div>
+        <div>
+            <textarea name="" cols="180" rows="15" id="editarea" value="" style="display: none; margin: 10px;"></textarea>
+        </div>
+        <button class="like-btn" onclick="likefunction()"><i class="fa fa-thumbs-up"> Like</i></button>
+        <p id="likeincrease">Be the first one to like !</p>
+        <textarea id="usercomment" value="" rows="5" placeholder="Leave a comment..."></textarea>
+        <br>
+        <button class="commet-btn" onclick='addcomment(usercomment)'>Comment</button>
+        <!-- code of comment area -->
+        <h3>All Comment</h3>
+        <div class="allcomment">
+            <div id="addEventNames">
+
+            </div>
+        </div>
+    </div>
+    <!--creating a model for sing up button -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Get Started</h1>
+            <hr>
+            <form class="form">
+                <label class="lname">Full Name</label>
+                <input type="text" name="" id="" placeholder="Enter Full Name" class="textfield" required>
+                <label class="lname">Username</label>
+                <input type="text" name="" id="" placeholder="Enter Username" class="textfield" required>
+                <label class="lname">Password</label>
+                <input type="password" name="" id="" placeholder="Enter Password" class="textfield" required>
+                <label class="lname">Confirm Password</label>
+                <input type="password" name="" id="" placeholder="Confirm Password" class="textfield" required>
+                <button class="btn">Sign Up</button>
+            </form>
+        </div>  
+    </div>
+    <!-- creating a model for sign in button -->
+    <div id="signinModel" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Welcome Back!</h1>
+            <hr>
+            <form class="form">
+                <label class="lname">Username</label>
+                <input type="text" name="" id="" placeholder="Enter Username" class="textfield" required>
+                <label class="lname">Password</label>
+                <input type="password" name="" id="" placeholder="Enter Password" class="textfield" required>
+                <button class="btn">Sign In</button>
+            </form>
+            <!-- linking signup model in a sign in model-->
+            <p class="lastdiv">Not a member? <a href="#" class="anchor" onclick="signuUpfunction()">Sign Up</a></p>
+        </div>
+    </div>
+    <!-- linking the header.js and post.js file -->
+    <script src="../js/header.js"></script>
+    <script src="../js/post.js"></script>
+</body>
+</html>

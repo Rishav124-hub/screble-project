@@ -1,3 +1,4 @@
+/* styling the font of header part */
 logo-title{
 	font-family: 'Satisfy';
   font-style: normal;
@@ -46,9 +47,7 @@ logo-title{
   src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
-
-
+/* styling the logo */
 .logo-title {
   font-family: 'Satisfy', cursive;
   font-size: 50px;
@@ -57,6 +56,7 @@ logo-title{
   text-decoration: none;
   margin: 10px 10px 0px 10px;    
   }
+/* styling button of header part */
 .topButtons {
    width: 90px;
    padding: 10px;
@@ -71,5 +71,90 @@ logo-title{
    margin: 10px 10px 0px 0px;
    font-family: Arial, Helvetica, sans-serif;
  }
+
+ /* styling model part */
+/* styling model close symbol */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+}
+/* styling heading part of the model  */
+h1{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+}
+/* styling model content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 5px 20px 30px 20px;
+  border: 1px solid #888;
+  width: 25%;
+}
+/* styling model block and it background */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 75px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* styling form which is present in the model */
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+/* styling label name which is present in form */
+.lname{
+ margin-top:20px;
+ font-weight: bold;
+ margin-bottom: 5px;
+ font-size: larger;
+ font-family: 'Oswald', sans-serif;
+}
+/* styling form button */
+.btn{
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #4CAF50;
+}
+/* styling text field which is present in the form */
+.textfield{
+  padding: 15px;
+  background-color:lightgrey;
+  font-weight: normal;
+  border: none;
+  font-size: large;
+}
+/* styling for anchor tag */
+.anchor{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+/* styling the last part of the sign in model */
+.lastdiv{
+  text-align: center;
+  margin-top:30px;
+ font-weight: bold;
+ margin-bottom: 5px;
+ font-size: larger;
+ font-family: 'Oswald', sans-serif;
+}
 
   

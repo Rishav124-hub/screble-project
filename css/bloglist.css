@@ -1,72 +1,86 @@
+/* styling the middle text which is present in head part */
 .middleText{
     font-family: 'Marck Script', cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;
     color: white;
     }
+/* styling the background color */
 html{
     background-color: gold;
 }
+/* giving margin of the body */
 body{
     margin: 0px;
 }
-
-.comment{
+/* styling the post area */
+.post{
     display: flex;
     flex-direction: row;
     width: 40%;
     margin: 5px 5% 20px 5% ;
+    max-height: 300px;
 }
-.comments{
+/* styling the posts present in a single line */
+.posts{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+/* styling the username area */
 .usernamearea{
     background-color: white;
-    padding: 50px;
+    padding: 40px;
     border-radius: 20px 0px 0px 20px;
     display: flex;
     align-items: center;
 }
-.commentarea{
+/* styling the postarea of post */
+.postarea{
     background-color: lightgrey;
     padding: 15px 15px 15px 25px;
     border-radius: 0px 20px 20px 0px;
 }
+/* styling the trash icon present in post */
 .icontrash{
     float: right;
     padding: 5px;
     
 }
+/* styling font-size of trash icon present in post */
 #iconmodel{
     font-size: 30px;
 }
+/* styling the three dot icon present in post */
 .doticon{
     float: right;
     padding: 5px;
 }
+/* styling the postcontent only */
 .overflow{
     overflow: hidden;
     height: 70px;
     margin: 0px;
     margin-bottom: 5px;
 }
+/* styling the heading of post part */
 h2{
     margin-bottom: 5px;
     font-weight: bolder;
+    overflow: hidden;
 
 }
-.comment-content-model{
-    background-color: #fefefe;
+/* styling content of model of trash icon */
+.post-content-model{
+  background-color: #fefefe;
   margin: auto;
   padding: 5px 25px 30px 20px;
   border: 1px solid #888;
   width: 23%;
 }
-
-.commentpostmodel{
+/* styling the model of trash icon */
+.postmodel{
     display: none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -78,24 +92,29 @@ h2{
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+/* styling the heading of trash icon model */
 h3{
     text-align: center;
     margin-top: 30px;
 }
-.btn{
+/* styling the yes button in trash icon model */
+.yes-btn{
     width: 30%;
     padding: 6px;
     border: none;
     color: white;
     margin-bottom: 5px;
-}
-.yes-btn{
     background-color: red;
     margin-right: 10%; 
     margin-left: 10%;
 }
+/* styling the no button in trash icon model */
 .no-btn{
+    width: 30%;
+    padding: 6px;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
     background-color: limegreen;
      margin-left: 10%;
 }

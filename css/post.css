@@ -65,3 +65,7 @@ h4{
     font-size: larger;
 
 }
+#editarea{
+    display: none;
+    margin: 10px;
+}

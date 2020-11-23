@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
+    <title>index</title>
+    <!-- linking the index.css file -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- linking the header.css file -->
+    <link rel="stylesheet" href="../css/header.css">
+    <!-- linking the font family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- header part -->
     <div class="header">
         <a id="pageTitle" class="logo-title">ScriBBler </a>
         <input class="topButtons" type="button" value="Sign Up" onclick="signupfunction()">
         <input class="topButtons" type="button" value="Sign In" onclick="signinfunction()">
         <p class="middleText">Explore Imagine Create</p>
     </div >
+    <!-- creating post button -->
     <div class="Button">
-    <button id="AllPostButton" class="PostButton">All Posts</button>
-    <button id="CreatePostButton" class="PostButton">Create Post</button>
+        <!-- using anchor tag to link all post button to bloglist.html -->
+        <a href="file:///C:/Users/Rishav%20Jaiswal/Git/screble-project/html/bloglist.html">
+            <button id="AllPostButton" class="PostButton" onclick="allpost()">All Posts</button>
+        </a>
+        <button id="CreatePostButton" class="PostButton">Create Post</button>
     </div>
+    <!--creating a model for sing up button -->
     <div id="signupModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -38,7 +47,7 @@
             </form>
         </div>  
     </div>
-
+    <!-- creating a model for sign in button -->
     <div id="signinModel" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -51,23 +60,26 @@
                 <input type="password" name="" id="" placeholder="Enter Password" class="textfield" required>
                 <button class="btn">Sign In</button>
             </form>
+            <!-- linking signup model in a sign in model-->
             <p class="lastdiv">Not a member? <a href="#" class="anchor" onclick="signuUpfunction()">Sign Up</a></p>
         </div>
     </div>
-
-    <div id="createpostModel" class="modal">
+    <!-- creating a model for create post button-->
+    <div id="createpostModel" class="postmodal">
         <div class="post-modal-content">
             <span class="close">&times;</span>
             <h3>Pen Your Post</h3>
             <form class="form">
-                <label>Title:</label>
-                <input type="text" name="" id="">
-                <label>Content:</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <label class="postlname">Title:</label>
+                <input type="text" name="" id="" class="titlebox">
+                <label class="postlname">Content:</label>
+                <textarea name="" id="" cols="30" rows="21" class="Contentbox"></textarea>
+                <button class="btn-button">Create</button>
             </form>
         </div>
-
     </div>  
-    <script src="js/index.js"></script>
+    <!-- linking the index.js and header.js file -->
+    <script src="../js/header.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>
